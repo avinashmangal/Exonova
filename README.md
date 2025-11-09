@@ -1,2 +1,8 @@
-# Exonova
-Exonova Lifesciences Pvt. Ltd. is a cutting-edge biotech startup incubated at FITT, IIT Delhi. We are pioneering advanced solutions in diagnostics, therapeutics, and value-added health innovations, with a strong focus on exosome-based platform
+# Exonova Clone Static Site
+Static clone of Exonova Life Sciences website.
+
+## Deployment (GitHub Pages)
+1. Create a new repo and push all files.
+2. Go to Settings > Pages.
+3. Select main branch and root folder.
+4. Visit your published URL.
