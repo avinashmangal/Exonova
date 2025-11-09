@@ -1,28 +1,136 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Exonova Life Sciences | Home</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Exonova Life Sciences — Innovation in Biotech</title>
+  <meta name="description" content="Scientific solutions and technologies in life sciences. Placeholder static replica." />
   <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="icon" href="assets/images/logo.svg" />
 </head>
 <body>
-  <header>
-    <h1>Exonova Life Sciences</h1>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="our-technology.html">Technology</a></li>
-        <li><a href="services.html">Services</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">
+        <img src="assets/images/logo.svg" alt="Exonova" class="logo" />
+        <span class="brand-text">Exonova</span>
+      </a>
+      <nav class="main-nav" id="mainNav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="our-technology.html">Technology</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html" class="cta">Contact</a>
+      </nav>
+      <button id="navToggle" class="nav-toggle" aria-label="Toggle navigation">☰</button>
+    </div>
   </header>
-  <section class="hero">
-    <h2>Innovating Life Sciences</h2>
-    <p>Shaping the future of biotechnology through scientific excellence.</p>
-  </section>
-  <footer>&copy; 2025 Exonova Life Sciences</footer>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <h1>Transforming life science with precise, modern technology</h1>
+          <p>We develop next-generation solutions that accelerate research, diagnostics and therapeutics. This is a static professional template with image placeholders and modern styling.</p>
+          <p class="hero-cta">
+            <a href="our-technology.html" class="btn primary">Our Technology</a>
+            <a href="contact.html" class="btn ghost">Get in Touch</a>
+          </p>
+        </div>
+        <div class="hero-media">
+          <img src="https://picsum.photos/900/520?random=101" alt="Hero placeholder" />
+        </div>
+      </div>
+    </section>
+
+    <section class="quick-features">
+      <div class="container features-grid">
+        <article>
+          <h3>Precision Tools</h3>
+          <p>State-of-the-art instruments and workflows designed for reproducible results.</p>
+        </article>
+        <article>
+          <h3>Scalable Platforms</h3>
+          <p>From benchtop to production, our platforms scale with your needs.</p>
+        </article>
+        <article>
+          <h3>Collaborative Research</h3>
+          <p>Partner with our team to translate discovery into impact.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="highlight container">
+      <div class="highlight-inner">
+        <div class="highlight-media">
+          <img src="https://picsum.photos/640/420?random=102" alt="Technology placeholder" />
+        </div>
+        <div class="highlight-copy">
+          <h2>Our Integrated Technology Suite</h2>
+          <p>Combining hardware, software and data analytics to deliver actionable insights for research and clinical applications.</p>
+          <a class="link" href="our-technology.html">Explore technologies →</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="services-preview">
+      <div class="container">
+        <h2 class="section-title">Services</h2>
+        <div class="services-grid">
+          <article>
+            <img src="https://picsum.photos/420/260?random=103" alt="Service 1" />
+            <h4>Custom Assays</h4>
+            <p>Design and validation of assays tailored to your application.</p>
+          </article>
+          <article>
+            <img src="https://picsum.photos/420/260?random=104" alt="Service 2" />
+            <h4>Data Analytics</h4>
+            <p>Advanced pipelines for signal processing and interpretation.</p>
+          </article>
+          <article>
+            <img src="https://picsum.photos/420/260?random=105" alt="Service 3" />
+            <h4>Consulting & Support</h4>
+            <p>Expert guidance to integrate solutions into your workflow.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-cta">
+      <div class="container contact-cta-inner">
+        <h3>Ready to talk?</h3>
+        <p>Contact our team to discuss a collaboration or demo.</p>
+        <a href="contact.html" class="btn primary">Contact Us</a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <strong>Exonova</strong>
+        <p>Innovating life sciences.</p>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <p>Email: info@example.com</p>
+        <p>Phone: +1 555 555 555</p>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <nav>
+          <a href="about.html">About</a><br />
+          <a href="our-technology.html">Technology</a><br />
+          <a href="services.html">Services</a>
+        </nav>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">© <span id="year"></span> Exonova. All rights reserved.</div>
+    </div>
+  </footer>
+
+  <script src="assets/js/script.js"></script>
 </body>
 </html>
